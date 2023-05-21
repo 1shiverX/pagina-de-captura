@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("./img/1.jpg"); 
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-size: cover;
     background-position: center;
     font-family: 'poppins', sans-serif;
 }
@@ -12,6 +13,7 @@ body{
     flex-direction: column;
     margin-left: 10%;
     width: 50%;
+    height: 100vh;
 }
 
 h5{
@@ -74,16 +76,17 @@ label{
 }
 
 
-@media (max-width:650px){
+@media (max-width:730px){
 
     .container{
-        justify-content: center;
         align-items: center;
         width: 85%;
+        margin-top: 25%;
     }
 
     img{
-        width: 50%;
+        width: 70%;
+        margin-top: 0;
     }
     h5{
         font-size: 1.2rem;
