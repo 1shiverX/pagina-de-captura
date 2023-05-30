@@ -35,7 +35,7 @@ img{
 
 input{
     background-color: transparent; 
-     height: 50px; 
+     height: 55px; 
      border-radius: 1px; 
      border-color: #fc8405; 
      font-size: 1rem; 
@@ -57,7 +57,7 @@ input[type=number]::-webkit-inner-spin-button {
 button{
     background-color:#fc8405;
     width: 85%;
-    height: 40px;
+    height: 55px;
     border-radius: 1px;
     color: black;
     border-color: transparent;
