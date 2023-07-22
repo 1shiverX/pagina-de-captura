@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-position: center;
     font-family: 'poppins', sans-serif;
+    height: 800px;
 }
 
 .container{
@@ -56,7 +57,7 @@ input[type=number]::-webkit-inner-spin-button {
   
 button{
     background-color:#fc8405;
-    width: 83%;
+    width: 85%;
     height: 55px;
     border-radius: 1px;
     color: black;
